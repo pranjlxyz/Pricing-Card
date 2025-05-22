@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    margin: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    height: 726px;
+    background-image: url(gradient-landscape-design-background_23-2149120069.avif);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.plan{
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 80%; 
+    border-radius: 8px;
+    font-family: nunito;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.para-one{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+.para-two{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.price{
+    font-size: 65px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.img{
+    margin-top: 7px;
+}
+.inline{
+    display: inline-flex;
+}
+img{
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 0;
+    padding-left: 14px;
+}
+button{
+    border-radius: 40px;
+    border: none;
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: nunito;
+    display: flex;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #38446d;
+}
+.button-free{
+    background-color: #202842;
+    color: #FFFFFF;
+}
+.button-basic{
+    background-color: #FFFFFF;
+    color: #202842;
+}
+.button-pro{
+    background-color: #202842;
+    color: #FFFFFF;
+}
+#free-plan{
+    color: #202842;
+}
+#basic-plan{
+    background-color: #202842;
+    color: #FFFFFF;
+}
+#pro-plan{
+    color: #202842;
+}
+.button-basic:hover {
+    background-color: #b2b2b2;
+}
